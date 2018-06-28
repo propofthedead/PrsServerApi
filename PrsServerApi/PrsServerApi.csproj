@@ -184,14 +184,22 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\PurchaseRequestLinesController.cs" />
+    <Compile Include="Controllers\PurchaseRequestsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\VendorsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201806281612139_added users.cs" />
     <Compile Include="Migrations\201806281612139_added users.Designer.cs">
       <DependentUpon>201806281612139_added users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806281722078_added other controllers.cs" />
+    <Compile Include="Migrations\201806281722078_added other controllers.Designer.cs">
+      <DependentUpon>201806281722078_added other controllers.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CapstoneApiContext.cs" />
@@ -273,6 +281,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201806281612139_added users.resx">
       <DependentUpon>201806281612139_added users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806281722078_added other controllers.resx">
+      <DependentUpon>201806281722078_added other controllers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

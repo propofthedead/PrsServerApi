@@ -20,5 +20,13 @@ namespace PrsServerApi.Models
         }
 
 		public System.Data.Entity.DbSet<PrsServerApi.Models.User> Users { get; set; }
+
+		public System.Data.Entity.DbSet<PrsServerApi.Models.Vendor> Vendors { get; set; }
+
+		public System.Data.Entity.DbSet<PrsServerApi.Models.Product> Products { get; set; }
+
+		public System.Data.Entity.DbSet<PrsServerApi.Models.PurchaseRequest> PurchaseRequests { get; set; }
+
+		public System.Data.Entity.DbSet<PrsServerApi.Models.PurchaseRequestLine> PurchaseRequestLines { get; set; }
 	}
 }
