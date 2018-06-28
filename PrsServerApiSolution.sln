@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrsServerApi", "PrsServerApi\PrsServerApi.csproj", "{CD761187-65BD-4D0A-B75D-3CDF84083970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD761187-65BD-4D0A-B75D-3CDF84083970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD761187-65BD-4D0A-B75D-3CDF84083970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD761187-65BD-4D0A-B75D-3CDF84083970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD761187-65BD-4D0A-B75D-3CDF84083970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FF57D12-F24D-45D4-B9E1-80B1760B2666}
+	EndGlobalSection
+EndGlobal
